@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+    double i,j=1,d,s;
+    for ( i = 1; i <=7; i+=2)
+    {
+        d=(i/j);
+        s=s+d;
+        j=j*2;
+    }
+    printf("%.21f\n",s);
+}
